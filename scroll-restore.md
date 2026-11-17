@@ -61,6 +61,10 @@ A URL that ends in a fragment such as `#anchor-offsets` points to a heading on
 the page. Opening it directly should scroll to that heading, even though the
 page content is rendered by JavaScript after the initial HTML shell.
 
+Open [`toc-long#repeated-heading`](../toc-long.md#repeated-heading) to navigate
+to another page and land on its target heading. To stay on this page instead,
+follow [Jump to final checks](#final-checks).
+
 The restore routine keeps looking for the target while the page renders. It
 gives up after a bounded number of animation frames, so a missing anchor never
 leaves a polling loop behind.
