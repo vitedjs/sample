@@ -9,6 +9,8 @@ same Markdown and MDX examples.
   attributes, and compiles `src/app.tsx` as the block source.
 - `table.md` covers Markdown tables with column alignment and inline formatting.
 - `toc-short.md` and `toc-long.md` exercise a short and a long table of contents.
+- `scroll-restore.md` demonstrates scroll restoration on navigation and hash
+  targets on a long page.
 - `badge-new.md` and `badge-deprecated.md` show the sidebar badges.
 
 The pages are not published on their own; run the documentation site of a theme
